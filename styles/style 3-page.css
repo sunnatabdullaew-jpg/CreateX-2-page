@@ -464,6 +464,7 @@
     background-color: rgb(252, 191, 180);
     width: 100%;
     margin: auto;
+    gap: 20px;
 } .input-full {
     border: none;
     width: 280px;
