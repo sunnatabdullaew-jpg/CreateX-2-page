@@ -8,6 +8,7 @@
     list-style: none;
 } .wraper {
     width: 100%;
+    overflow: hidden;
 } .background {
    background-color: #ebc7c6;
 } .navbar_container , .container {
@@ -128,6 +129,7 @@
   .left-bottom {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 } .left-top-title {
     font-family: 'Lato';
     font-style: normal;
@@ -341,7 +343,7 @@
     /* identical to box height, or 60px */
     display: flex;
     align-items: center;
-
+    
     /* gray/400 */
     color: #D7DADD;
 
@@ -370,11 +372,19 @@
     color: #787A80;
 
 
-} .container-box {
+} 
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.container-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 30px;
     margin-top: 30px;
 } .title-online {
     font-family: 'Lato';
@@ -410,6 +420,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 60px;
+   
 } .time-title {
     font-family: 'Lato';
     font-style: normal;
@@ -483,14 +494,13 @@
     display: flex;
     align-items: center;
     margin: 10px;
-    gap: 15px;
+    gap: 50px;
 } .inp-btn {
     display: flex;
     align-items: center;
     color: white;
-    padding: 0px 32px;
     gap: 10px;
-    width: 165px;
+    width: 805px;
     height: 44px;
     background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
     border-radius: 4px;

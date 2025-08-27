@@ -17,14 +17,18 @@ li {
 a {
   text-decoration: none;
 }
-
+body {
+  overflow-x: hidden;
+}
 .wrapper {
   width: 100%;
+  overflow: hidden;
 }
 
 .container {
   width: 1200px;
   margin: 50px auto;
+
 }
 
 .navbar,
@@ -362,7 +366,7 @@ subheading
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

@@ -8,7 +8,9 @@
     list-style: none;
 } .wraper {
     width: 100%;
+    overflow: hidden;
 } .background {
+    overflow: hidden;
     background: linear-gradient(#ffa3a0);
 } .navbar_container , .container {
     width: 1200px;

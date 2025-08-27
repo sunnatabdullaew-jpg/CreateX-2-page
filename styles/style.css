@@ -6,13 +6,17 @@
 li {
   list-style: none;
 }
-
 a {
   text-decoration: none;
 }
 
 .wrapper {
   width: 100%;
+  overflow: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .container {
@@ -288,7 +292,7 @@ subheading
   margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
   justify-content: space-between;
 }
 
