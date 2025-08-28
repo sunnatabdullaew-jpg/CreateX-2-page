@@ -51,7 +51,14 @@
 } .nav_list:hover {
     color: #FF3F3A;
     transition: 0,3s ease-in-out;
-} .reg {
+}
+
+.nav_btn:hover{
+    color: #F75E05;
+    background: inherit;
+    border: 1px solid #F75E05;
+}
+.reg {
     width: 115px;
     height: 26px;
 

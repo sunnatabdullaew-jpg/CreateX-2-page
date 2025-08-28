@@ -78,29 +78,6 @@ body {
 }
 
 .navbar__btn {
-  /* Get consultation */
-
-  /* btn/solid/large */
-
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px 40px;
-  gap: 10px;
-
-  width: 250px;
-  height: 52px;
-
-  /* btn-gradient */
-  background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
-  border-radius: 4px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  align-self: flex-start;
-  flex-grow: 0;
 
   /* Get consultation */
 
@@ -125,6 +102,11 @@ body {
   border: none;
 }
 
+.navbar__btn:hover{
+    color: #F75E05;
+    background: inherit;
+    border: 1px solid #F75E05;
+}
 .navbar__rigth {
   gap: 20px;
 }

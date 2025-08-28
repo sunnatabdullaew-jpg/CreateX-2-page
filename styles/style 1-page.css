@@ -45,7 +45,16 @@
     align-items: center;
     justify-content: center;
     border: none;
-} .nav_ul {
+}
+
+
+.nav_btn:hover{
+    color: #F75E05;
+    background: inherit;
+    border: 1px solid #F75E05;
+}
+
+.nav_ul {
     gap: 50px;
 } .nav_list {
     color: #424551;
