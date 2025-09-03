@@ -352,8 +352,7 @@ color: #424551;
 .lesson_themes{
     gap: 16px;
     display: flex;
-    align-items: start;
-    justify-content: start;
+
     flex-direction: column;
 }
 .backround_speaker{
@@ -531,7 +530,6 @@ color: #1E212C;
 } .right-info {
     width: 500px;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     gap: 7px;
     box-shadow: 0px 0px 81px 16px rgba(0, 0, 0, 0.2);
